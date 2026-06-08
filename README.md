@@ -1,6 +1,8 @@
 # AuthManager Portfolio
 
-AuthManager is a backend authentication and licensing system developed in modern C++.
+AuthManager is a reusable authentication and licensing platform developed in modern C++.
+
+The system is designed to support both desktop applications and web-based services, providing a common backend foundation for authentication, licensing, session management, and security-related functionality.
 
 The project demonstrates production-oriented backend engineering practices including:
 
@@ -14,12 +16,22 @@ The project demonstrates production-oriented backend engineering practices inclu
 
 ## Technology Stack
 
+### Backend
+
 * C++20
 * Crow
 * MariaDB
 * OpenSSL
 * libsodium
 * cURL
+
+### Client Applications
+
+* Qt
+* QML
+
+### Testing
+
 * GoogleTest
 * CMake
 
@@ -35,10 +47,17 @@ The project demonstrates production-oriented backend engineering practices inclu
 
 ### Email Verification
 
-* Email verification workflow
+* Account verification workflow
 * Login verification workflow
 * Verification token generation
-* Token expiration handling
+* Verification token expiration handling
+
+### Session Management
+
+* Secure session token generation
+* Session validation
+* Session persistence
+* Session invalidation on logout
 
 ### Licensing
 
@@ -51,13 +70,15 @@ The project demonstrates production-oriented backend engineering practices inclu
 
 * Password hashing
 * Session token hashing
+* Email verification tokens
+* Login confirmation workflow
 * IP-based login lockouts
 * License activation lockouts
 * Audit logging
 
 ## Automated Testing
 
-Current test coverage includes:
+Current automated test coverage includes:
 
 * Password verification tests
 * User registration tests
@@ -76,16 +97,18 @@ Current test coverage includes:
 
 ## Architecture
 
-The production backend source code is intentionally kept private because the project may be used in future commercial software.
+The production backend source code is intentionally kept private because the project may be used in future commercial software products.
 
 This repository serves as a portfolio showcase containing:
 
-* Documentation
-* Architecture diagrams
+* Architecture documentation
+* Authentication flow documentation
+* Database documentation
 * Development logs
 * Test results
-* Design decisions
+* Screenshots
+* Demonstration videos
 
 ## Project Goal
 
-Create a reusable authentication and licensing backend suitable for desktop applications and future commercial software products.
+Design and implement a reusable authentication and licensing platform suitable for desktop applications, websites, SaaS products, and future commercial software projects.

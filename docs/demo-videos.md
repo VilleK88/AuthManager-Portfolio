@@ -36,7 +36,7 @@ The video demonstrates how AuthManager maintains user sessions while supporting 
 
 ## AuthManager Demo Part 3
 
-Video: https://youtu.be/nUsTUqX486s
+Video: https://youtu.be/WlxUNe7n1tI
 
 This demonstration focuses on secure login verification.
 
